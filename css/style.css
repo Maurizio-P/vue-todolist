@@ -1,0 +1,48 @@
+.col-8 {
+    margin: 0 auto;
+}
+.input-container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container > * {
+    height: 100%;
+}
+
+.label-color{
+    width: 5px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.element-list{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 50px;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.input-text{
+    width: 75%;
+    border-radius: 10px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.title-complete{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-close {
+    margin-left: auto;
+}
