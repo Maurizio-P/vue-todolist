@@ -21,7 +21,7 @@
                     <h1>To do list</h1>
                     <div class="input-container">
                         <input type="color" name="" id="" v-model="inputColor">
-                        <input type="text" class="input-text" placeholder="Aggiungi un elemento" v-model="newText">
+                        <input type="text" @keydown.enter="addOnArray()" class="input-text" placeholder="Aggiungi un elemento" v-model="newText">
                         <button class="btn btn-primary" id="addButton" @click="addOnArray()">Aggiungi!</button>
                     </div>
                     

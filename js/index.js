@@ -36,7 +36,8 @@ const vueApp = new Vue({
  
             this.toDoList.push({
                 message: this.newText,
-                color: this.inputColor
+                color: this.inputColor,
+                checked: false
             })
 
             this.newText = ""
